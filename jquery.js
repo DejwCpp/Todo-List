@@ -12,7 +12,7 @@ $(function() {
             "<div class=\"taskTxt\">" +
             $("#newSentance").val() +
             "</div>" +
-            "<button class=\"btnDelete\">Usuń</button>" +
+            "<button class=\"btnDelete\">Delete</button>" +
             "</li>"
         );
 
