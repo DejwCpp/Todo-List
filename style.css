@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #d7d9ce;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 600;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#container {
+  text-align: center;
+  background-color: aqua;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #fafaff;
+}
+
+#newSentance {
+  height: 35px;
+  width: 200px;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+}
+
+#taskList {
+  width: 30vh;
+}
+
+.taskTxt {
+  cursor: pointer;
+}
+
+#addNewTask {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btnDelete {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 20px 0 10px;
+}
